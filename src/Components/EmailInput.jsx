@@ -6,10 +6,6 @@ const EmailInput = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Aquí puedes realizar la llamada a la API con el correo electrónico
-    // por ejemplo, usando la función fetch()
-
-    // Resetear el valor del input
     setEmail("");
   };
 
