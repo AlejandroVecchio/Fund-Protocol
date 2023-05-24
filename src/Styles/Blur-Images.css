@@ -1,0 +1,49 @@
+.container {
+  width: 60vh;
+  height: 60vh;
+  position: relative;
+  animation: rotation 40s infinite linear;
+  opacity: 0.5;
+}
+
+.box {
+  width: 50%;
+  height: 50%;
+  filter: blur(80px);
+  position: relative;
+  border-radius: 100%;
+}
+
+.color3 {
+  background-color: #452498;
+  margin-top: -47%;
+  margin-left: 47%;
+  z-index: -3;
+}
+.color1 {
+  background-color: #4f56ff;
+  margin-left: 25%;
+  margin-bottom: -15%;
+  z-index: -1;
+}
+.color2 {
+  background-color: #ff4980;
+  z-index: -2;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.right {
+  justify-content: flex-end;
+  align-items: center;
+  height: 60vh;
+  width: 93%;
+  position: absolute;
+  z-index: -1;
+}

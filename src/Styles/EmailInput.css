@@ -1,0 +1,63 @@
+.email-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.email-input {
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  width: 70vh;
+  height: 3vh;
+  max-width: 80%;
+}
+
+.email-input::placeholder {
+  color: #999;
+}
+
+/*.email-input-button {
+  margin-top: 16px;
+  margin-left: 10px;
+  padding: 17px 34px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  background: linear-gradient(
+    90deg,
+    rgba(79, 86, 255, 1) 0%,
+    rgba(255, 73, 128, 1) 100%
+  );
+  color: #fff;
+  cursor: pointer;
+}*/
+
+.email-input-button {
+  margin-top: 16px;
+  margin-left: 10px;
+  padding: 17px 34px;
+  font-size: 16px;
+  border-radius: 20px;
+  background: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-image: linear-gradient(
+    90deg,
+    rgba(79, 86, 255, 1) 0%,
+    rgba(255, 73, 128, 1) 100%
+  );
+  border-image-slice: 1;
+  color: #fff;
+  cursor: pointer;
+}
+
+.email-input-button:hover {
+  transition: 0.4s;
+  font-size: 18px;
+  margin-left: 8px;
+}

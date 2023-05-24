@@ -1,0 +1,18 @@
+html {
+  height: 100vh;
+  background-color: #13111a;
+  display: block;
+}
+.screen {
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
