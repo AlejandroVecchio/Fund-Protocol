@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "MainFont";
+  src: url("../src/Assets/fonts/Webfont/THICCCBOI-Regular.woff2")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "MainFontBold";
+  src: url("../src/Assets/fonts/Webfont/THICCCBOI-Bold.woff2")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "MainFontThin";
+  src: url("../src/Assets/fonts/Webfont/THICCCBOI-Thin.woff2")
+    format("truetype");
+}
+
 html {
   height: 100vh;
   background-color: #13111a;
@@ -15,4 +33,11 @@ html {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.bodyContainer {
+  height: 80vh;
+  width: 100vh;
+  padding: 20vh 20vh 0vh 30vh;
+  margin-bottom: -5vh;
 }

@@ -2,7 +2,7 @@
   width: 60vh;
   height: 60vh;
   position: relative;
-  animation: rotation 40s infinite linear;
+  animation: rotation 25s infinite linear;
   opacity: 0.5;
 }
 
