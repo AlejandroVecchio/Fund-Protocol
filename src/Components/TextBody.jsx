@@ -5,9 +5,10 @@ import "../App.css";
 const TextBody = () => {
   return (
     <>
-      <div className="title">
-        <span className="gradient">Fund Protocol:</span> Permissionless and Open
-        Constant Weighted Indices
+      <div className=" logo">Fund Protocol</div>
+      <div className="title ">
+        <span className="gradient">Permissionless </span>and{" "}
+        <span className="gradient">Open</span> Constant Weighted Indices
       </div>
       <div className="bodyText">
         Introducing a new financial primitive to the world of Decentralized

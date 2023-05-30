@@ -1,6 +1,12 @@
+.logo {
+  font-family: MainFontThin;
+  font-size: 34px;
+  color: white;
+  padding-bottom: 13vh;
+}
 .title {
   font-family: MainFontBold;
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 700;
   color: white;
 }
@@ -13,13 +19,12 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 78px;
 }
 
 .bodyText {
   font-family: MainFont;
   color: #b3b0c3;
-  font-size: 18px;
+  font-size: 1.2rem;
   line-height: 1.7em;
   padding: 5vh 0 0 0;
   /*width: 125vh;*/

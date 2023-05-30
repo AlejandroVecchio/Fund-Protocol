@@ -9,12 +9,12 @@
   border-radius: 8px;
   margin-top: 5px;
   border: none;
-  font-size: 16px;
+  font-size: 20px;
+  font-family: "MainFontThin";
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-color: #fff;
-  min-width: 55vh;
   height: 3vh;
-  max-width: 80vh;
+  width: 425px;
 }
 
 .email-input::placeholder {
@@ -38,12 +38,6 @@
   border-image-slice: 1;
   color: #fff;
   cursor: pointer;
-}
-
-.email-input-button:hover {
-  transition: 0.4s;
-  font-size: 18px;
-  margin-left: 8px;
 }
 
 .socialMedia {
