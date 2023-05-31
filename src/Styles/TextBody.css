@@ -3,6 +3,7 @@
   font-size: 34px;
   color: white;
   padding-bottom: 13vh;
+  cursor: pointer;
 }
 .title {
   font-family: MainFontBold;
