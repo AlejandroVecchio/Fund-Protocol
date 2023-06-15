@@ -28,11 +28,15 @@ const EmailInput = () => {
           </button>
         </form>
         <div className="socialMedia">
+          <a href="https://discord.gg/FZqqjNWx">
+            <div className="socialMediaHover">
+              <FaDiscord size="5vh" color="white" />
+            </div>
+          </a>
           <div className="socialMediaHover">
-            <FaDiscord size="5vh" color="white" />
-          </div>
-          <div className="socialMediaHover">
-            <FaTwitter size="5vh" color="white" />
+            <a href="https://twitter.com/fundprotocol">
+              <FaTwitter size="5vh" color="white" />
+            </a>
           </div>
         </div>
       </div>

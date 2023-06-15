@@ -1,11 +1,14 @@
 import React from "react";
 import "../Styles/TextBody.css";
 import "../App.css";
+import Fund from "../Assets/images/Fund.svg";
 
 const TextBody = () => {
   return (
     <>
-      <div className=" logo">Fund Protocol</div>
+      <div className=" logo">
+        <img src={Fund} width="150px" />
+      </div>
       <div className="title ">
         <span className="gradient">Permissionless </span>and{" "}
         <span className="gradient">Open</span> Constant Weighted Indices

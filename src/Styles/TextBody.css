@@ -5,12 +5,13 @@
   cursor: pointer;
   position: absolute;
 }
+
 .title {
   font-family: MainFontBold;
   font-size: 4rem;
   font-weight: 700;
   color: white;
-  padding: 2em 0 0 0;
+  padding: 175px 0 0 0;
 }
 
 .gradient {

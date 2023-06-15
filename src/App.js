@@ -5,7 +5,7 @@ import BlurImages from "./Components/Blur-Images.jsx";
 import TextBody from "../src/Components/TextBody.jsx";
 import Features from "./Components/Features";
 import BodyImages from "./Assets/images/BodyImage.svg";
-
+import Fund from "./Assets/images/Fund.svg";
 const App = () => {
   return (
     <div className="">
@@ -16,9 +16,7 @@ const App = () => {
             <TextBody />
             <EmailInput />
           </div>
-          <div className="middle">
-            <img src={BodyImages} width="500px" />
-          </div>
+          <img src={Fund} width="40%" />
         </div>
       </div>
       <Features />
