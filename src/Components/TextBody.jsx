@@ -6,9 +6,7 @@ import Fund from "../Assets/images/Fund.svg";
 const TextBody = () => {
   return (
     <>
-      <div className=" logo">
-        <img src={Fund} width="150px" />
-      </div>
+      <div className=" logo">Fund protocol</div>
       <div className="title ">
         <span className="gradient">Permissionless </span>and{" "}
         <span className="gradient">Open</span> Constant Weighted Indices
