@@ -28,22 +28,3 @@ html {
 .flex {
   display: flex;
 }
-
-.bodyContainer {
-  width: 100vw;
-  width: 65vh;
-  padding: 6vh 0vw 0vh 30vw;
-}
-.mainContainer {
-  padding: 0vh 0vh 7vh 0vw;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.middle1 {
-  max-width: 581px;
-}
-.middle {
-  width: 25%;
-  text-align: center;
-}
