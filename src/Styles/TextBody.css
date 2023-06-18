@@ -105,6 +105,9 @@
   height: auto;
   margin: auto;
 }
+.icon {
+  font-size: 10vh;
+}
 
 @media only screen and (max-width: 600px) {
   .mediaQuery {
@@ -148,5 +151,29 @@
     padding: 2vh 0vh 0vh 0vh;
     justify-content: center;
     width: 100%;
+  }
+  .featuresContainer {
+    flex-direction: column;
+  }
+  .icon {
+    font-size: 7vh;
+  }
+  .featureTitle {
+    font-size: 25px;
+  }
+  .featuresIcon {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+  .card {
+    text-align: start;
+    height: auto;
+    margin: 2vh;
+  }
+  .features {
+    padding: 4vh 6vh 0vh 6vh;
+    font-size: 16px;
+    line-height: 2em;
   }
 }

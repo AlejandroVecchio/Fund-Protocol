@@ -15,7 +15,7 @@ const Features = () => {
         <div className="featuresContainer">
           <div className="card features">
             <div className="featuresIcon">
-              <SiCrystal size="10vh" />
+              <SiCrystal className="icon" />
               <div className="featureTitle gradient">Permissionless</div>
             </div>
             Easily create and deploy custom index funds by defining tokens,
@@ -24,14 +24,14 @@ const Features = () => {
 
           <div className="card features">
             <div className="featuresIcon">
-              <FaFly size="10vh" />
+              <FaFly className="icon" />
               <div className="featureTitle gradient">Open</div>
             </div>
             Accessible to any user interested in creating an index fund.
           </div>
           <div className="card features">
             <div className="featuresIcon">
-              <GiDiamondRing size="10vh" />
+              <GiDiamondRing className="icon" />
               <div className="featureTitle gradient">Trustless</div>{" "}
             </div>
             Funds require no active management or user interaction once
@@ -42,7 +42,7 @@ const Features = () => {
         <div className="featuresContainer">
           <div className="card features">
             <div className="featuresIcon">
-              <SiTrustpilot size="10vh" />
+              <SiTrustpilot className="icon" />
               <div className="featureTitle gradient">Efficient</div>
             </div>
             MEV-optimized funds foster a competitive environment, enabling low
@@ -50,7 +50,7 @@ const Features = () => {
           </div>
           <div className="card features">
             <div className="featuresIcon">
-              <FaFeatherAlt size="10vh" color="#B3B0C3" />
+              <FaFeatherAlt className="icon" color="#B3B0C3" />
               <div className="featureTitle gradient"> Minimal User Costs</div>
             </div>
             The protocol only takes performance fees, eliminating additional
@@ -58,7 +58,7 @@ const Features = () => {
           </div>
           <div className="card features">
             <div className="featuresIcon">
-              <IoIosGitCompare size="10vh" />
+              <IoIosGitCompare className="icon" />
               <div className="featureTitle gradient"> Composable</div>
             </div>
             Adheres to ERC-3448, ERC-4626, and ERC-1155 standards, enabling
