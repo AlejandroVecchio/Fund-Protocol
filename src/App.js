@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="">
       <BlurImages />
-      <div className="">
+      <div className="mediaQuery">
         <div className="mainContainer">
           <div className="middle1">
             <TextBody />

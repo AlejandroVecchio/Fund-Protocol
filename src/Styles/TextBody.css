@@ -1,3 +1,21 @@
+.bodyContainer {
+  width: 100vw;
+  width: 65vh;
+  padding: 6vh 0vw 0vh 30vw;
+}
+.mainContainer {
+  padding: 0vh 0vh 7vh 0vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.middle1 {
+  max-width: 581px;
+}
+.middle {
+  width: 25%;
+  text-align: center;
+}
 .logo {
   font-family: MainFontThin;
   font-size: 34px;
@@ -86,4 +104,49 @@
   width: 50vh;
   height: auto;
   margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .mediaQuery {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .mainContainer {
+    padding: 0vh 0vh 7vh 0vw;
+    display: inline;
+  }
+  .title {
+    font-family: MainFontBold;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    padding: 175px 0 0 0;
+  }
+  .bodyText {
+    font-family: MainFont;
+    color: #b3b0c3;
+    font-size: 1.1rem;
+    line-height: 1.4em;
+    padding: 5vh 0 0 0;
+  }
+  .middle1 {
+    padding: 5%;
+  }
+  .email-input {
+    margin-top: 30px;
+    font-size: 18px;
+    height: 2vh;
+    width: 90%;
+  }
+  .email-input-button {
+    padding: 14px 34px;
+    width: 180px;
+    height: 46px;
+  }
+  .socialMedia {
+    padding: 2vh 0vh 0vh 0vh;
+    justify-content: center;
+    width: 100%;
+  }
 }
